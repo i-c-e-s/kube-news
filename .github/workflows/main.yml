@@ -35,5 +35,5 @@ jobs:
           push: true
           tags: |
             ices/kube-news:latest
-            ices/kube-news:${{github.run_number}}
+            ices/kube-news:v${{github.run_number}}
             
